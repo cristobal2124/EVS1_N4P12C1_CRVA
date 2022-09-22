@@ -18,4 +18,8 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('primeravista/',views.display),
+    path('segundavista/',views.vista2),
+    path('segundavista/',views.display2),
+    path('segundavista/',views.vista4),
 ]
