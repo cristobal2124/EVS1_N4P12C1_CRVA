@@ -8,3 +8,4 @@ def display2(request):
 
 def vista4(request):
     return HttpResponse("<h1>Hola denuevo a mi pagina</h1> <h1>Hola denuevo a mi pagina</h1> <h1>Hola denuevo a mi pagina</h1> <h1>Hola denuevo a mi pagina</h1> <h1>Hola denuevo a mi pagina</h1>")
+
