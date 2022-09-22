@@ -15,11 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from crva_app1 import views as vista1
+from crva_app2 import views as vista2
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('primeravista/',views.display),
-    path('segundavista/',views.vista2),
-    path('segundavista/',views.display2),
-    path('segundavista/',views.vista4),
+    path('pagina1vista1/',vista1.display),
+    path('pagina1vista2/',vista1.vista2),
+    path('pagina2vista1/',vista2.display2),
+    path('pagina2vista2/',vista2.vista4),
 ]
